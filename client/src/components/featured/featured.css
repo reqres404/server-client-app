@@ -13,15 +13,24 @@
   border-radius: 10px;
   overflow: hidden;
   height: 250px;
+  transition-duration:0.4s ;
   flex:1
 }
 
 .featuredImg{
   width: 100%;
   height: 100%;
+  transition-duration:0.3s;
   object-fit: cover;
 }
-
+.featuredItem:hover{
+  height: 240px;
+  width: 240px;
+}
+.featuredImg:hover{
+  
+  width: 110%;
+}
 .featuredTitles{
   position: absolute;
   bottom: 20px;

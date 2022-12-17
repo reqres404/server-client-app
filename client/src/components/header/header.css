@@ -1,9 +1,11 @@
 .header {
-  background-color: #003580;
+  background-color: #930dd7;
   color: white;
   display: flex;
   justify-content: center;
   position: relative;
+  border-bottom:  3px solid black;
+  border-top:  3px solid black;
 }
 
 .headerContainer {
@@ -36,21 +38,30 @@
 
 .headerDesc {
   margin: 20px 0px;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .headerBtn {
-  background-color: #0071c2;
-  color: white;
+  background-color: #c575ed;
+  color: rgb(2, 0, 0);
   font-weight: 500;
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 10px;
+  transition-duration:0.4s ;
 }
 
+.headerBtn:hover{
+  background-color: #930dd7;
+  color: white;
+  border: 2px solid black;
+}
 .headerSearch {
   height: 30px;
   background-color: white;
-  border: 3px solid #febb02;
+  border: 3px solid #0c0c0c;
   display: flex;
   align-items: center;
   justify-content: space-around;

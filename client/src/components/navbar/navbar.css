@@ -1,6 +1,6 @@
 .navbar{
   height: 50px;
-  background-color: #003580;
+  background-color: #c575ed;
   display: flex;
   justify-content: center;
 }
@@ -19,9 +19,25 @@
 }
 
 .navButton{
+  background-color: #930dd7;
   margin-left: 20px;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #003580;
+  transition-duration: 0.4s;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.navButton:hover{
+  background-color: white;
+  color:black;
+  border-radius: 0px;
+
+}
+.logo{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0%;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
 }
