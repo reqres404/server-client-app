@@ -1,6 +1,6 @@
 .navbar{
   height: 50px;
-  background-color: #c575ed;
+  background-color: #f5de47;
   display: flex;
   justify-content: center;
 }
@@ -8,10 +8,11 @@
 .navContainer{
   width: 100%;
   max-width: 1024px;
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .logo{
@@ -19,13 +20,14 @@
 }
 
 .navButton{
-  background-color: #930dd7;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f12f2f;
   margin-left: 20px;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
   transition-duration: 0.4s;
-  color: #ffffff;
+  color: #fffdfd;
   border-radius: 5px;
 }
 .navButton:hover{

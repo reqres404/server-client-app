@@ -5,16 +5,18 @@
   justify-content: space-between;
   gap: 20px;
   z-index: 1;
+  
 }
 
 .featuredItem{
   position: relative;
-  color: white;
+  color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
   height: 250px;
   transition-duration:0.4s ;
-  flex:1
+  flex:1;
+  
 }
 
 .featuredImg{
@@ -22,6 +24,7 @@
   height: 100%;
   transition-duration:0.3s;
   object-fit: cover;
+  
 }
 .featuredItem:hover{
   height: 240px;

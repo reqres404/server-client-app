@@ -10,6 +10,7 @@ import Login from "./pages/login/Login";
 
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
